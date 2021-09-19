@@ -19,7 +19,7 @@ then, the response to the request `localhost:8080/books/Толстой` will be 
 + Install Go (if you haven't already): https://golang.org/doc/tutorial/getting-started
 + Clone project from Github `git clone https://github.com/vitalg93/code-review-task.git`
 + Create PostgreSQL database `books` and create a table `books` in it (table structure see in Example section). 
-+ Check database credentials in code (`DB_USERNAME`, etc.) to correct connection with Posgres.
++ Check database credentials in code (`DB_USERNAME`, etc.) to correct connection with PostgreSQL.
 + Fill some table rows
 + In project directory run in terminal: `go run main.go`
 + Ready! Try to send URL in your browser `localhost:8080/books/{author}`
