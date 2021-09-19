@@ -13,7 +13,11 @@ Carefully read the code and figure out how it works, understand what errors and 
 ## Example
 For example, if your PostgreSQL database contains this rows:      
 ![alt text](https://raw.githubusercontent.com/vitalg93/hello-world/main/db_books.jpg)    
-then, the response to the request `localhost:8080/books/Толстой` will be `...`, and the request `localhost:8080/books/Бунин` will be `null`
+then, the response to the request   
+`localhost:8080/books/Толстой` will be    
+```[{"id":1,"title":"Война и мир","author":"Толстой","cost":250,{"id":3,"title":"Юность","author":"Толстой","cost":150},{"id":4,"title":"Анна Каренина","author":"Толстой","cost":450}]```,   
+and the request    
+`localhost:8080/books/Бунин` will be `null`
 
 ## Quick start
 + Install Go (if you haven't already): https://golang.org/doc/tutorial/getting-started
