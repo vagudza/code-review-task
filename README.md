@@ -1,6 +1,5 @@
 # code-review-task
-Junior golang dev task: make a code review   
-https://goplay.space/#hMh2XyixXRC,23 (if not exists, see https://github.com/vitalg93/code-review-task/blob/main/main.go)
+Junior golang dev task: make a code review    
 
 Carefully read the code and figure out how it works, understand what errors and flaws there are in it, think again and find comments that I did not find at the previous stage. Additionally, a corrected working code of the service has been added, which receives `JSON` containing books by the specified author at the URL `localhost:8080/books/{author}`. Books are loaded from the postgreSQL database
 
